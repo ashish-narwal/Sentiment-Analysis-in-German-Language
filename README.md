@@ -22,7 +22,7 @@ cd Sentiment-Analysis-in-German-Language
 - Run the command ```poetry shell``` to create a vitrual environment
 - Run ```poetry install``` to install the dependencies
 # To run locally
-- Run ```uvicorn src.main:app --reload``` to run the applocation on local host
+- Run ```uvicorn src.main:app --reload``` to run the application on local host that we can access through http://127.0.0.1:8000
 - All routes are available on ```/docs``` or ```/redoc``` paths with Swagger or ReDoc.
 
 # To run with docker
