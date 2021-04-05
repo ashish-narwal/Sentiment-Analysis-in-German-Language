@@ -19,3 +19,7 @@ cd Sentiment-Analysis-in-German-Language
 ```
 
 - Install ```Python 3.8``` and ```poetry```
+
+- Run the command ```poetry shell``` to create a vitrual environment
+- Run ```poetry install``` to install the dependencies
+- 
