@@ -15,5 +15,7 @@ The REST API model is a simple sentiment analyzer, it have:
 - clone the repo 
 ```bash
 https://github.com/ashish-narwal/Sentiment-Analysis-in-German-Language.git
+cd Sentiment-Analysis-in-German-Language
 ```
-- Install Python 3.8 and poetry
+
+- Install ```Python 3.8``` and ```poetry```
