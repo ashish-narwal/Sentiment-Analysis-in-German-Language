@@ -19,9 +19,14 @@ cd Sentiment-Analysis-in-German-Language
 ```
 
 - Install ```Python 3.8``` and ```poetry``` 
-
 - Run the command ```poetry shell``` to create a vitrual environment
 - Run ```poetry install``` to install the dependencies
-# Getting Started
+# To run locally
 - Run ```uvicorn src.main:app --reload``` to run the applocation on local host
 - All routes are available on ```/docs``` or ```/redoc``` paths with Swagger or ReDoc.
+
+# To run with docker
+- Make sure  ```Docker ``` is running locally.
+- Run  ```docker build -t sentiment:latest . ``` to build the docker image with name sentiment
+- Run  ```docker run -d -p 80:80 sentiment:latest``` to launch the container 
+- Now we have a container runnning on our local machine that we access through  http://0.0.0.0:80
