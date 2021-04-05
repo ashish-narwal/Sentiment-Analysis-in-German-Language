@@ -7,7 +7,7 @@ The REST API model is a simple sentiment analyzer, it have:
 3. An endpoint to predict sentiment given a json file with a field containing plain text.
 
 ### The possible outcomes of the sentiment analysis are: {Positive, Neutral, Negative}.
-* I used a pre-trained existing model.  
+* I used a pre-trained existing model which is trained on 1.834 million samples. The training data contains texts from various domains like Twitter, Facebook and movie, app and hotel reviews.  
 * All endpoints are returning the prediction in the same json format. Moreover, the returned json also indicating the prediction's confidence probability.  
 * Used Python Poetry for dependency management.  
 
