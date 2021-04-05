@@ -1,5 +1,5 @@
 # Sentiment-Analysis-in-German-Language
-## Created a dockerized, simple REST API, with Python & FastAPI, to predict Sentiment in a German language
+## Created a dockerized, simple REST API, with Python & FastAPI, to predict Sentiment in the German language
 The REST API model is a simple sentiment analyzer, it have:
 
 1. An endpoint to predict sentiment given a plain text.  
