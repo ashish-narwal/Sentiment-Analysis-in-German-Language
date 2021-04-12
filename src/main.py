@@ -36,7 +36,8 @@ async def post_predict(data: ModelParams):
 @app.post("/upload-text-file/")
 async def text_upload_file(upload_file: UploadFile = File(...)):
 
-    contents = await upload_file.read()
+    text_binary = await upload_file.read()
+    contents = text_binary.decode()
     text = str(contents)
     pred = model.predict_sentiment(text)
     return pred
