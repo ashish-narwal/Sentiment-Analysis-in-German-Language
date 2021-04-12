@@ -14,7 +14,7 @@ The REST API model is a simple sentiment analyzer, it have:
 # To run the application
 - clone the repo 
 ```bash
-https://github.com/ashish-narwal/Sentiment-Analysis-in-German-Language.git
+git clone https://github.com/ashish-narwal/Sentiment-Analysis-in-German-Language
 cd Sentiment-Analysis-in-German-Language
 ```
 
