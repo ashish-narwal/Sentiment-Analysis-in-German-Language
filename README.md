@@ -19,7 +19,7 @@ cd Sentiment-Analysis-in-German-Language
 ```
 
 - Install ```Python 3.8``` and ```poetry``` 
-- Run the command ```poetry shell``` to create a vitrual environment
+- Run the command ```poetry shell``` to create a virtual environment
 - Run ```poetry install``` to install the dependencies
 # To run locally
 - Run ```uvicorn src.main:app --reload``` to run the application on local host that we can access through http://127.0.0.1:8000
